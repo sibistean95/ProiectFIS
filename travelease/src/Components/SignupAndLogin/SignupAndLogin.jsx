@@ -1,6 +1,8 @@
 import React from "react";
 import './SignupAndLogin.css';
 
+import { FaUser, FaLock } from "react-icons/fa";
+
 const SignupAndLogin = () => {
     return (
         <div className='wrapper'>
@@ -10,10 +12,12 @@ const SignupAndLogin = () => {
                     <div className="input-box">
                         <input type="text"
                         placeholder="Username" required />
+                        <FaUser className="icon"/>
                     </div>
                     <div className="input-box">
                         <input type="password"
                         placeholder="Password" required />
+                        <FaLock className="icon"/>
                     </div>
 
                     <div className="remember-forgot">
