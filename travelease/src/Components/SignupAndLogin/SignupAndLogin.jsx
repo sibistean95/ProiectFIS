@@ -89,7 +89,7 @@ const loginLink = () => {
 
                     <div className="owner-forgot">
                         <label>
-                            <input type="checkbox" /> Is this a owner account? Otherwise, leave the checkbox unamrked!
+                            <input type="checkbox" /> Is this an owner account? Otherwise, leave the checkbox unamrked!
                         </label>
                     </div>
 
