@@ -7,6 +7,12 @@
     color: #fff;
     display: flex;
     align-items: center;
+    overflow: hidden;
+    transition: height .2s ease;
+}
+
+.wrapper.active {
+    height: 650px;
 }
 
 .wrapper .form-box {
@@ -14,9 +20,25 @@
     padding: 40px;
 }
 
+.wrapper .form-box.login {
+    transition: translate .18s ease;
+    translate: 0;
+}
+
+.wrapper.active .form-box.login {
+    transition: none;
+    translate: -450px;
+}
+
 .wrapper .form-box.signup {
     position: absolute;
+    transition: none;
     translate: 400px;
+}
+
+.wrapper.active .form-box.form-box.signup {
+    transition: translate .18s ease;
+    translate: 0;
 }
 
 form h1 {
