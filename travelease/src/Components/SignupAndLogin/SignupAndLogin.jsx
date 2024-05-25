@@ -40,6 +40,12 @@ const loginLink = () => {
                         <a href="#">Forgot password ?</a>
                     </div>
 
+                    <div className="owner-customer">
+                        <label>
+                            <input type="checkbox" /> Are you an owner ?
+                        </label>
+                    </div>
+
                     <button type="submit">Login</button>
 
                     <div className="register-link">
@@ -81,9 +87,9 @@ const loginLink = () => {
                         <FaLock className="icon"/>
                     </div>
 
-                    <div className="remember-forgot">
+                    <div className="owner-forgot">
                         <label>
-                            <input type="checkbox" /> I agree to the terms and conditions
+                            <input type="checkbox" /> Is this a owner account? Otherwise, leave the checkbox unamrked!
                         </label>
                     </div>
 
